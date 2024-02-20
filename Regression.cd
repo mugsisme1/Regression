@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ClassDiagram Zoom="1" MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Regression.My.MyApplication" Collapsed="False">
+    <Position X="0.5" Y="0.5" Width="2.356413" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Regression.My.MyComputer" Collapsed="False">
+    <Position X="0.5" Y="2.2" Width="2.356413" />
+    <Compartments />
+  </Class>
+  <Class Name="Regression.My.MyForms" Collapsed="False">
+    <Position X="0.5" Y="3.2" Width="2.248092" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Regression.My.MyProject" Collapsed="False">
+    <Position X="0.5" Y="6.4" Width="2.44466" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Regression.clsReadSPDAValues" Collapsed="False">
+    <Position X="0.5" Y="22.8" Width="2.72738" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Regression.clsReadSPIAValues" Collapsed="False">
+    <Position X="0.5" Y="52.5" Width="3.261588" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Regression.clsReadVAValues" Collapsed="False">
+    <Position X="0.5" Y="0.5" Width="3.154972" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Regression.exporttoexcel" Collapsed="False">
+    <Position X="0.5" Y="223.5" Width="1.803337" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Regression.RegressionMain" Collapsed="False">
+    <Position X="0.5" Y="225.4" Width="3.164533" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Regression.Form2" Collapsed="False">
+    <Position X="0.5" Y="249.8" Width="1" />
+    <Compartments />
+  </Class>
+  <Class Name="Regression.Form3" Collapsed="False">
+    <Position X="0.5" Y="250.9" Width="4.293" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Regression.Form4" Collapsed="False">
+    <Position X="0.5" Y="256.9" Width="2.796774" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Regression.Form5" Collapsed="False">
+    <Position X="0.5" Y="261.8" Width="3.030309" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Regression.Form6" Collapsed="False">
+    <Position X="0.5" Y="269" Width="2.726789" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Regression.Form7" Collapsed="False">
+    <Position X="0.5" Y="273.1" Width="2.556471" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Regression.MismatchNotes" Collapsed="False">
+    <Position X="0.5" Y="276.7" Width="2.70799" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Regression.My.Resources.Resources" Collapsed="False">
+    <Position X="0.5" Y="278.9" Width="2.472174" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Regression.My.MySettings" Collapsed="False">
+    <Position X="0.5" Y="281.1" Width="2.186242" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Regression.My.MySettingsProperty" Collapsed="False">
+    <Position X="0.5" Y="283.5" Width="1.579391" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Regression.progress" Collapsed="False">
+    <Position X="0.5" Y="284.8" Width="2.681349" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Regression.SplashScreen1" Collapsed="False">
+    <Position X="0.5" Y="287.6" Width="2.471125" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Regression.AboutBox" Collapsed="False">
+    <Position X="0.5" Y="8.3" Width="3.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+      <Compartment Name="Nested Types" Collapsed="False" />
+    </Compartments>
+  </Class>
+</ClassDiagram>

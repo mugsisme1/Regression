@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>\\Ricfiles\HQ Depts\HQ Depts 6\IT\WFPROP\regression\|\\ricfiles\fs04\testappl\wfprop\regression\|\\sp100aric\HQ2_winusers_03\213008204\regression\|http://localhost/Regression/</PublishUrlHistory>
+    <InstallUrlHistory>\\sp100aric\HQ2_winusers_03\213008204\Regression\|\\ricfiles\fs04\testappl\wfprop\Regression\|\\ricfiles\fs04\testappl\wfprop\</InstallUrlHistory>
+    <SupportUrlHistory>
+    </SupportUrlHistory>
+    <UpdateUrlHistory>
+    </UpdateUrlHistory>
+    <BootstrapperUrlHistory>
+    </BootstrapperUrlHistory>
+    <ErrorReportUrlHistory>
+    </ErrorReportUrlHistory>
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>true</VerifyUploadedFiles>
+    <ReferencePath>C:\WINDOWS\assembly\</ReferencePath>
+    <ProjectView>ShowAllFiles</ProjectView>
+  </PropertyGroup>
+</Project>

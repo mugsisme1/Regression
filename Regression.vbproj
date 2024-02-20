@@ -1,0 +1,593 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C54C2F28-BB0D-46ED-9EC5-18E63E0FA3A6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Regression.My.MyApplication</StartupObject>
+    <RootNamespace>Regression</RootNamespace>
+    <AssemblyName>The Regressionator</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ManifestCertificateThumbprint>ED0F503504640E23F2EEE086EF71E61FD09D99C9</ManifestCertificateThumbprint>
+    <ManifestKeyFile>
+    </ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>true</SignManifests>
+    <ApplicationIcon>tux.ico</ApplicationIcon>
+    <SourceAnalysisOverrideSettingsFile>D:\Documents and Settings\213008204\Application Data\ICSharpCode/SharpDevelop3.0\Settings.SourceAnalysis</SourceAnalysisOverrideSettingsFile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>\\Ricfiles\HQ Depts\HQ Depts 6\IT\WFPROP\regression\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Unc</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>189</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>The Regressionator.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>The Regressionator.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="ComponentFactory.Krypton.Docking, Version=4.3.2.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\ComponentFactory.Krypton.Docking.dll</HintPath>
+    </Reference>
+    <Reference Include="ComponentFactory.Krypton.Navigator, Version=4.3.2.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\ComponentFactory.Krypton.Navigator.dll</HintPath>
+    </Reference>
+    <Reference Include="ComponentFactory.Krypton.Toolkit, Version=4.3.2.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\ComponentFactory.Krypton.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="ComponentFactory.Krypton.Workspace, Version=4.3.2.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\ComponentFactory.Krypton.Workspace.dll</HintPath>
+    </Reference>
+    <Reference Include="DataGridViewExtension, Version=1.1.1.0, Culture=neutral, PublicKeyToken=81fb70b94a00c054, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Desktop\dgvext\v1.1.1\Bin\DataGridViewExtension.dll</HintPath>
+    </Reference>
+    <Reference Include="Nini, Version=1.1.0.0, Culture=neutral, PublicKeyToken=691faec150a7fa7b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\WINDOWS\system32\Nini.dll</HintPath>
+    </Reference>
+    <Reference Include="SmoothProgressBar, Version=1.0.3517.23552, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Visual Studio 2005\Projects\SmoothProgressBar\SmoothProgressBar\bin\Debug\SmoothProgressBar.dll</HintPath>
+    </Reference>
+    <Reference Include="stdole, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TpscControlsPictureBoxEx, Version=1.0.3506.17696, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\WINDOWS\system32\TpscControlsPictureBoxEx.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="ComponentFactory" />
+    <Import Include="ComponentFactory.Krypton" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="stdole" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Content Include="ProfilingSessions\Session20100616_134801.sdps" />
+    <Content Include="Regression.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox.designer.vb">
+      <DependentUpon>AboutBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AboutBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="clsReadFIAValues.vb" />
+    <Compile Include="clsReadSPDAValues.vb" />
+    <Compile Include="clsReadSPIAValues.vb" />
+    <Compile Include="clsReadVAValues.vb" />
+    <Compile Include="exporttoexcel.Designer.vb">
+      <DependentUpon>exporttoexcel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="exporttoexcel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FIAToolForm.Designer.vb">
+      <DependentUpon>FIAToolForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FIAToolForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.vb">
+    </Compile>
+    <Compile Include="Form3.Designer.vb">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.vb">
+      <DependentUpon>Form4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.vb">
+      <DependentUpon>Form5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6.Designer.vb">
+      <DependentUpon>Form6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form6.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form7.Designer.vb">
+      <DependentUpon>Form7.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form7.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form8.Designer.vb">
+      <DependentUpon>Form8.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form8.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form9.Designer.vb">
+      <DependentUpon>Form9.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form9.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MismatchNotes.Designer.vb">
+      <DependentUpon>MismatchNotes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MismatchNotes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="progress.Designer.vb">
+      <DependentUpon>progress.vb</DependentUpon>
+    </Compile>
+    <Compile Include="progress.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReadFIARelayINI.vb" />
+    <Compile Include="SplashScreen1.Designer.vb">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AboutBox.resx">
+      <DependentUpon>AboutBox.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="exporttoexcel.resx">
+      <DependentUpon>exporttoexcel.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FIAToolForm.resx">
+      <DependentUpon>FIAToolForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6.resx">
+      <DependentUpon>Form6.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form7.resx">
+      <DependentUpon>Form7.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form8.resx">
+      <DependentUpon>Form8.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form9.resx">
+      <DependentUpon>Form9.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MismatchNotes.resx">
+      <DependentUpon>MismatchNotes.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>PublicVbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="progress.resx">
+      <DependentUpon>progress.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen1.resx">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Regression_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxDIFFMERGECTLLib">
+      <Guid>{5DC92A4A-C010-11D0-9A9A-00C04FC3066A}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="AxMODI">
+      <Guid>{A5EDEDF4-2BBC-45F3-822B-E60C278A1A79}</Guid>
+      <VersionMajor>11</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="DIFFMERGECTLLib">
+      <Guid>{5DC92A4A-C010-11D0-9A9A-00C04FC3066A}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="MODI">
+      <Guid>{A5EDEDF4-2BBC-45F3-822B-E60C278A1A79}</Guid>
+      <VersionMajor>11</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="Outlook">
+      <Guid>{00062FFF-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>9</VersionMajor>
+      <VersionMinor>2</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="Scripting">
+      <Guid>{420B2830-E718-11CF-893D-00A0C9054228}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="stdole1">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="stdole2">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Regression_1_TemporaryKey.pfx" />
+    <None Include="Resources\tux.ico" />
+    <Content Include="tux.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="ComponentFactory.Krypton.Docking">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="ComponentFactory.Krypton.Navigator">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="ComponentFactory.Krypton.Toolkit">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="ComponentFactory.Krypton.Workspace">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.Office.Interop.Excel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.Office.Interop.Outlook">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.Office.Interop.OutlookViewCtl">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Nini">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="office">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Regression.pdb">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Regression.xml">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="SmoothProgressBar.pdb">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="SmoothProgressBar.xml">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="tux.ico">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
